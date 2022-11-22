@@ -1,4 +1,3 @@
-// VOID CASE
 const user = {
   name: 'Dhafa',
   age: 15,
@@ -11,7 +10,6 @@ const movie = {
   minAge: 13,
 };
 
-// WITH RETURN DATA TYPE CASE (BEST PRACTICE) & Isolate the logic
 function ticketValidation(user, movie) {
   const isAdult = user.age >= movie.minAge;
   const worthiness = user.amount >= movie.ticketPrice;
