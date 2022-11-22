@@ -1,2 +1,1 @@
-# learn-javascript
-javascript fundamentals
+
